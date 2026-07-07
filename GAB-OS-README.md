@@ -1,5 +1,20 @@
 # Gab OS — cómo operar este sistema
 
+## Cómo alimentar tu second brain (lo único que tienes que hacer)
+
+1. **Suelta material crudo en `raw/`** — apuntes, PDFs, exports de chats,
+   transcripciones. En la subcarpeta que corresponda, sin formato especial.
+   `raw/` nunca se toca después: es tu fuente original.
+2. **Pide la digestión** — en el dashboard (Tareas → "Digiere mi maestría" o
+   una tarea equivalente) o dile a Claude "digiere lo nuevo de raw/". El
+   agente compila el material a notas conectadas en `wiki/`.
+3. **Trabaja normal y cierra sesiones** — "cierra la sesión" guarda al
+   journal lo que hiciste. Las corridas del Kanban se registran solas.
+4. **No organices a mano** — el agente mantiene `wiki/index.md`, el log y los
+   wikilinks. Tu trabajo es soltar material y decidir; el suyo es ordenar.
+
+El resto (backup diario a GitHub, poda mensual, estado semanal) corre solo.
+
 Sistema agéntico de Gab sobre Claude Code. Este vault (`second-brain`) es su
 memoria única. Cualquier persona con Claude Code instalado puede operarlo.
 
