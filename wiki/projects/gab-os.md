@@ -46,7 +46,7 @@ Blueprint canónico de Gab → implementación real en Gab OS. Regla: no instala
 una pieza nueva si algo existente ya cubre la capa mejor.
 
 **1. Modelos (el cerebro)**
-- LLM base: Claude Code con **Fable 5** como motor; subagentes pueden bajar a Haiku para tareas ligeras (override por agente).
+- LLM base: Claude Code con **Opus** como default de sesión (política cero-Fable-5 del 2026-07-07 — ver sección Política de modelos); Sonnet en agentes de revisión/rutinas, Opus en guardianes de dinero.
 - Especializados: **Higgsfield MCP** (imagen/video/audio/3D) y skill `nano-banana` (imágenes Gemini) para todo lo visual/branding.
 - Embeddings/RAG: **NO instalado a propósito** — la investigación original de Gab documentó que el vault plano le ganó al pipeline RAG. Camino futuro si el vault crece a miles de notas: pgvector en Supabase (ya está en el stack).
 
@@ -61,7 +61,7 @@ una pieza nueva si algo existente ya cubre la capa mejor.
 - Navegación web: **Claude in Chrome** (browser autónomo) + WebSearch/WebFetch.
 
 **4. Orquestación (el flujo)**
-- Agentes especializados: **12 subagentes de Revo** (fraude, webhooks, RLS, deploy…), **3 de Vidarq** (data-integrity, prisma-expert, security-reviewer), + agentes generales de Claude Code.
+- Agentes especializados: **9 subagentes de Revo en disco** (fraude, webhooks, SQL, deploy… — su CLAUDE.md lista 12: drift pendiente de limpiar en sesión de Revo), **3 de Vidarq** (data-integrity, prisma-expert, security-reviewer), + agentes generales de Claude Code.
 - Multi-agent router: las **routing rules del CLAUDE.md de Revo** (tabla de delegación + desempates) + las descripciones de skills — el dispatcher es Claude Code mismo. Para fan-outs grandes existe el modo workflow multi-agente.
 - HITL: **niveles de autonomía** (suggest/co-pilot/autopilot, default co-pilot) + **5 checkpoints humanos** (sección arriba en el CLAUDE.md del vault).
 
