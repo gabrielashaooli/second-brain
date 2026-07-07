@@ -1,0 +1,5 @@
+# Estado volátil de Obsidian (posición de ventanas, cache) — no es conocimiento
+.obsidian/workspace.json
+.obsidian/workspace-mobile.json
+.obsidian/cache
+.trash/
