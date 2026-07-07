@@ -100,6 +100,9 @@ versiones de la verdad. La memoria interna solo puede apuntar HACIA el vault.
 4. `raw/` sigue siendo inmutable.
 5. Los proyectos abandonados (mi-gpt, netflix-recomendador, sinai, tickets,
    yam, ml-analyzer, entrevista_ai) no entran al OS ni al vault.
+6. **[[sofia]] (socia) accede a Gab OS ÚNICAMENTE vía dashboard — nunca
+   terminal.** Antes de darle acceso real: separar la vista de Shift del
+   contenido personal y de Revo (ver auditoría 2026-07-07 en [[gab-os]]).
 
 ## Niveles de autonomía (por defecto: co-pilot)
 
@@ -112,7 +115,9 @@ versiones de la verdad. La memoria interna solo puede apuntar HACIA el vault.
 
 ## Checkpoints humanos (aprobación explícita SIEMPRE, en cualquier modo)
 
-1. Comunicaciones externas (emails, mensajes, posts públicos).
+1. Comunicaciones externas (emails, mensajes, posts públicos). **Correo:
+   SOLO lectura y borradores — el envío autónomo está prohibido SIEMPRE,
+   incluso desde tareas aprobadas; enviar es acto exclusivamente humano.**
 2. Transacciones financieras o cambios de precios/ofertas visibles a usuarios.
 3. Modificar/eliminar datos de producción (Vidarq, Revo, Sinaí).
 4. Acciones irreversibles sin undo fácil.
