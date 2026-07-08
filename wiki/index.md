@@ -4,7 +4,18 @@ Catálogo de todo el conocimiento compilado. Cada entrada lleva un TLDR.
 
 ## Conceptos
 
-_(vacío — aún no hay notas en `concepts/`)_
+### Visualización de datos (maestría MIACD)
+
+- [[visualizacion-de-datos-fundamentos]] — Nota hub del módulo: qué es y para qué sirve la visualización, mapa de conceptos, preguntas abiertas y referencias.
+- [[historia-de-la-visualizacion-de-datos]] — De Van Langren y Playfair a Tukey y la era digital, organizada en las épocas de Friendly.
+- [[percepcion-visual-y-gestalt]] — Cómo el cerebro interpreta lo visual; leyes de Gestalt, dirección de lectura y memoria.
+- [[atributos-preatentivos-y-jerarquia-visual]] — Señales (color, tamaño, posición) que se procesan antes de razonar; construyen jerarquía visual.
+- [[color-en-visualizacion]] — Matiz/saturación/luminosidad, color clave, paletas, rampas secuencial/divergente y accesibilidad.
+- [[tipos-de-graficos]] — Catálogo de gráficos y criterio de elección según la relación de datos a mostrar.
+- [[herramientas-de-visualizacion]] — Python (matplotlib/seaborn/plotly/altair/folium) y BI (Tableau/Power BI/Looker); IA como copiloto.
+- [[visualizacion-de-big-data]] — Las 4 V, reducir antes de graficar, overplotting, arquitectura Medallón e interactividad.
+- [[storytelling-con-datos]] — Objetivo+audiencia, la gran idea, arco narrativo y storyboard; el fin es la acción.
+- [[etica-e-ia-en-visualizacion]] — Persuadir vs. manipular; qué no se puede delegar a la IA; Human in the Loop.
 
 ## Proyectos
 
